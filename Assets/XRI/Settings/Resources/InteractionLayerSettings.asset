@@ -14,13 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_LayerNames:
   - Default
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Teleport
+  - grabbable
+  - Picture
+  - Gaze
+  - Key
+  - key 2
+  - Saw
   - 
   - 
   - 
