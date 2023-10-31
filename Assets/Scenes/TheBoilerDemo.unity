@@ -1180,13 +1180,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 251000496}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+  m_LocalRotation: {x: -0.5, y: 0.5, z: 0.5, w: 0.5}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5337178921090931247}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 90}
 --- !u!1 &254889165
 GameObject:
   m_ObjectHideFlags: 0
@@ -12619,8 +12619,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: You must rearrange the three pictures and put them in a specific location
+  m_text: 'You must rearrange the three pictures and put them in a specific location
     on the desk to uncover the hidden keys.
+
+
+    Top to Down, Left to Right should
+    do the trick.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -16935,7 +16939,7 @@ Transform:
   m_GameObject: {fileID: 1315002981}
   serializedVersion: 2
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -0.047, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -21083,7 +21087,7 @@ Transform:
   m_GameObject: {fileID: 1836082477}
   serializedVersion: 2
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -0.065, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -30092,6 +30096,7 @@ GameObject:
   - component: {fileID: 5337178919526444680}
   - component: {fileID: 5337178919526444682}
   - component: {fileID: 5337178919526444683}
+  - component: {fileID: 5337178919526444684}
   m_Layer: 0
   m_Name: door_r01
   m_TagString: Untagged
@@ -30149,6 +30154,27 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &5337178919526444684
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5337178919526444681}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.084684, y: 2.1092272, z: 0.16667424}
+  m_Center: {x: 0.539985, y: 0, z: 0}
 --- !u!64 &5337178919532885387
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -31061,6 +31087,7 @@ GameObject:
   - component: {fileID: 5337178919698930439}
   - component: {fileID: 5337178919698930433}
   - component: {fileID: 5337178919698930438}
+  - component: {fileID: 5337178919698930440}
   m_Layer: 0
   m_Name: door_l01
   m_TagString: Untagged
@@ -31125,6 +31152,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 5337178920131338076}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &5337178919698930440
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5337178919698930436}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.041463, y: 2.1092272, z: 0.056603603}
+  m_Center: {x: -0.52138084, y: 0, z: -0.0007256113}
 --- !u!1001 &5337178919699430311
 PrefabInstance:
   m_ObjectHideFlags: 0
